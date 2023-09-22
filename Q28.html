@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .continer{
+            margin: 0 2% 0 2%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header{
+            height: 100px;
+            background-color: green;
+            margin: 10px;
+        }
+
+        .content{
+            background-color: yellow;
+            padding: 20px;
+            flex: 1 1;
+        }
+
+        .footer{
+            height: 50px;
+            background-color: blue;
+            margin: 10px;
+        }
+    </style>
+</head>
+<!-- Design a layout with a header, content, and
+footer. The header should have a height of 100 pixels, the
+footer should have a height of 50 pixels, and the content
+should occupy the remaining space. Apply a margin of 10
+pixels to the header and footer, and a padding of 20 pixels to
+the content.
+ -->
+<body>
+    <div class="continer">
+        <div class="header">Header</div>
+        <div class="content">Content</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
